@@ -1,0 +1,20 @@
+import { View, Text, SafeAreaView , Image, TextInput, TouchableOpacity } from 'react-native'
+import React from 'react'
+
+const App = () => {
+  return (
+    <SafeAreaView>
+    <View style={{  justifyContent : 'center'}}>
+      <Text style={{ color : '#000000', fontWeight: 700 , fontSize : 32, alignSelf: 'center', marginTop : 80}}>Welcome!</Text>
+      <Text style={{ color : '#7C7C7C', fontSize: 13, alignSelf: 'center'}}>sign in or create a new account</Text>
+      <View style={{ alignSelf: 'center', marginTop: 100}}>
+        <Image source={require('./assets/Frame.png')}/>
+      </View>
+    
+      
+    </View>
+    </SafeAreaView>
+  )
+}
+
+export default App
